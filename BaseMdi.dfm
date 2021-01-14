@@ -1,0 +1,22 @@
+object BaseMdiForm: TBaseMdiForm
+  Left = 104
+  Top = 193
+  Width = 664
+  Height = 480
+  Caption = 'MDI'#22522#31867#31383#20307
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #23435#20307
+  Font.Style = []
+  FormStyle = fsMDIChild
+  OldCreateOrder = False
+  Position = poScreenCenter
+  Visible = True
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 12
+end
